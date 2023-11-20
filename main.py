@@ -3,7 +3,18 @@ import uvicorn
 # * Inicialización del servidor.
 if (__name__ == "__main__"):
     print("[🐶] Iniciando la API ...")
-    uvicorn.run(
+    PORT = 8023
+
+    configuration = uvicorn.Config(
         "api.server:app",
-        reload=True
+        port=PORT,
+
+        reload=True,
+        reload_delay=1000,
+
+        log_level="debug"
     )
+    server = uvicorn.Server(configuration)
+
+    server.run()
+

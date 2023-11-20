@@ -1,6 +1,9 @@
 # Dependencias.
 env/
 
+# Modelos.
+api/models/**.h5
+
 # Editor de codigo.
 .vscode/
 
