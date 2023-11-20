@@ -1,0 +1,9 @@
+# Dependencias.
+env/
+
+# Editor de codigo.
+.vscode/
+
+# Cache.
+api/__pycache__/
+__pycache__/
