@@ -4,6 +4,11 @@ env/
 # Modelos.
 api/models/**.h5
 
+# Images cache.
+api/images/**.jpg
+api/images/**.jpeg
+api/images/**.png
+
 # Editor de codigo.
 .vscode/
 

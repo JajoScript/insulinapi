@@ -4,7 +4,7 @@ import os
 modeloPath = f"{os.getcwd()}\\api\\models\\modelo.h5"
 pesosPath = f"{os.getcwd()}\\api\\models\\pesos.h5"
 
-async def predecir_fruta():
+async def predecir_fruta(file_path):
     return "[🐶] Es una fruta del dragon!"
 
 # import os
