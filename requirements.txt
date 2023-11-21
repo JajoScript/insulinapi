@@ -3,3 +3,5 @@ numpy
 keras
 uvicorn
 aiofiles
+pillow
+python-multipart
