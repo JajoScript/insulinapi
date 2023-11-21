@@ -3,3 +3,4 @@ numpy
 keras
 uvicorn
 aiofiles
+python-multipart

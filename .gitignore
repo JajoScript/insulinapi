@@ -9,6 +9,10 @@ api/images/**.jpg
 api/images/**.jpeg
 api/images/**.png
 
+api/test/images/**.jpg
+api/test/images/**.jpeg
+api/test/images/**.png
+
 # Editor de codigo.
 .vscode/
 
