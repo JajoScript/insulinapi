@@ -24,5 +24,5 @@ async def PredecirFruta(image: UploadFile=File(...)):
     resultado = await predict.predecir_fruta(out_file_path)
 
     return {
-        "message": resultado
+        "fruta": resultado
     }

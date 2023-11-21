@@ -21,4 +21,4 @@ async def predecir_fruta(file_path):
     respuesta = np.argmax(resultado)
     fruta = clases[respuesta]
 
-    return f"[🐶] Es una fruta: {fruta}!"
+    return fruta
